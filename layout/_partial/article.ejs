@@ -33,13 +33,7 @@
     <%- partial('post/nav') %>
   <% } %>
 </article>
-<script src="https://utteranc.es/client.js"
-        repo="PTRZERO/blogs"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
 <% if (!index && post.comments && config.disqus_shortname){ %>
 <section id="comments">
   <div id="disqus_thread">
